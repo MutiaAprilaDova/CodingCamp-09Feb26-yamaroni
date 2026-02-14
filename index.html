@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Project Mutia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Mutia's Gram</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#profile">Our Profile</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#message">Message Us</a>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home">
+        <h2>W E L C O M E</h2>
+        <p>Hi! I'm Mutia Aprila Dova, an Information Systems student.</p>
+        <p id="welcome-speech">Hello! Welcome to Mutia Company.</p>
+    </section>
+
+    <!-- OUR PROFILE -->
+    <section id="profile">
+        <h2>Our Profile</h2>
+        <p><span class="font-semibold">Name:</span> Mutia Aprila Dova</p>
+        <p><span class="font-semibold">Semester:</span> 2</p>
+        <p><span class="font-semibold">Major:</span> Information Systems</p>
+        <p><span class="font-semibold">University:</span> Politeknik Negeri Padang</p>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <h3>Project 1</h3>
+                <p>Simple personal website using HTML & CSS.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 2</h3>
+                <p>Mini e-commerce layout design.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 3</h3>
+                <p>Responsive landing page design.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MESSAGE US -->
+    <section id="message">
+        <h2>Message Us</h2>
+        <div class="message-container">
+            <form id="messageForm">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="date" id="date">
+                <div class="gender">
+                    <label><input type="radio" name="gender" value="Male"> Male</label>
+                    <label><input type="radio" name="gender" value="Female"> Female</label>
+                </div>
+                <textarea id="messageInput" placeholder="Your Message"></textarea>
+                <button type="button" id="submitBtn">Submit</button>
+            </form>
+            <div class="message-result">
+                <p id="currentTime"></p>
+                <p><strong>Name :</strong> <span id="resultName">-</span></p>
+                <p><strong>Date :</strong> <span id="resultDate">-</span></p>
+                <p><strong>Gender :</strong> <span id="resultGender">-</span></p>
+                <p><strong>Message :</strong> <span id="resultMessage">-</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2026 Mutia Aprila Dova
+    </footer>
+
+</body>
+</html>
